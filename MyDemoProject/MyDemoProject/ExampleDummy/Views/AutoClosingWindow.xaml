@@ -1,0 +1,20 @@
+﻿<Window x:Class="MyDemoProject.ExampleDummy.Views.AutoClosingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyDemoProject.ExampleDummy.Views"
+        mc:Ignorable="d"
+		Background="{x:Null}"
+		WindowStyle="None"
+		WindowStartupLocation="CenterScreen"
+		ResizeMode="NoResize"
+        Title="AutoClosingWindow" Height="130" Width="450">
+    <Grid>
+		<Border Background="AntiqueWhite">
+			<Grid>
+				<TextBlock Name="MessageBlock" Text="Text Here" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
+			</Grid>
+		</Border>
+    </Grid>
+</Window>
